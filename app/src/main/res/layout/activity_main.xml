@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.geographyquiz.MainActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/question_one"
+        style="@style/QuestionHeatherTextView"
+        android:text="1. What's the height of Mount Everest?"/>
+        <CheckBox
+            android:id="@+id/one_a_answer"
+        style="@style/CheckBoxStyle"
+        android:text="6190 m"/>
+    <CheckBox
+        android:id="@+id/one_b_answer"
+        style="@style/CheckBoxStyle"
+        android:text="5895 m"/>
+    <CheckBox
+        android:id="@+id/one_c_answer"
+        style="@style/CheckBoxStyle"
+        android:text="8848 m"/>
+
+    <TextView
+        android:id="@+id/question_two"
+        style="@style/QuestionHeatherTextView"
+        android:text="2. What's the capital of Azerbaijan?"/>
+        <CheckBox
+            android:id="@+id/two_a_answer"
+            style="@style/CheckBoxStyle"
+            android:text="Baku"/>
+        <CheckBox
+            android:id="@+id/two_b_answer"
+            style="@style/CheckBoxStyle"
+            android:text="Bamako"/>
+        <CheckBox
+            android:id="@+id/two_c_answer"
+            style="@style/CheckBoxStyle"
+            android:text="Dakar"/>
+
+    <TextView
+        android:id="@+id/question_three"
+        style="@style/QuestionHeatherTextView"
+        android:text="3. Where is lake Baikal located?"/>
+        <CheckBox
+            android:id="@+id/three_a_answer"
+            style="@style/CheckBoxStyle"
+            android:text="Norway"/>
+        <CheckBox
+            android:id="@+id/three_b_answer"
+            style="@style/CheckBoxStyle"
+            android:text="Russia"/>
+        <CheckBox
+            android:id="@+id/three_c_answer"
+            style="@style/CheckBoxStyle"
+            android:text="Finland"/>
+
+    <TextView
+        android:id="@+id/question_four"
+        style="@style/QuestionHeatherTextView"
+        android:text="4. What's the largest cave in the world?"/>
+        <CheckBox
+            android:id="@+id/four_a_answer"
+            style="@style/CheckBoxStyle"
+            android:text="Sistem Sac Actum"/>
+        <CheckBox
+            android:id="@+id/four_b_answer"
+            style="@style/CheckBoxStyle"
+            android:text="Mammoth Cave"/>
+        <CheckBox
+            android:id="@+id/four_c_answer"
+            style="@style/CheckBoxStyle"
+            android:text="Hang Son Doong"/>
+
+    <TextView
+        android:id="@+id/question_five"
+        style="@style/QuestionHeatherTextView"
+        android:text="5. What's the most active volcano on earth?"/>
+        <CheckBox
+            android:id="@+id/five_a_answer"
+            style="@style/CheckBoxStyle"
+            android:text="Kilauea"/>
+        <CheckBox
+            android:id="@+id/five_b_answer"
+            style="@style/CheckBoxStyle"
+            android:text="Erebus"/>
+        <CheckBox
+            android:id="@+id/five_c_answer"
+            style="@style/CheckBoxStyle"
+            android:text="Sangay"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check Answers"
+        android:onClick="submitAnswers"/>
+</LinearLayout>
+
+
+</ScrollView>
